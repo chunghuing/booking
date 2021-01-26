@@ -1,0 +1,26 @@
+// hover 
+.hover-underline {
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+.hover-opacity {
+    @include hover-linear;
+
+    &:hover {
+        @include hover-linear;
+        opacity: .9;
+    }
+}
+
+// cursor
+.cursor-pointer {
+    cursor: pointer;
+}
+
+// rounded
+.rounded-top-lg {
+    border-top-left-radius: $border-radius-lg !important;
+    border-top-right-radius: $border-radius-lg !important;
+}

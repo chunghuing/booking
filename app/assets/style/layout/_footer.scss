@@ -1,0 +1,23 @@
+footer {
+    .dropdown-menu {
+        top: auto;
+        bottom: 100%;
+    }
+    
+    .nav-link {
+        @include hover-linear;
+    
+        &:hover {
+            color: $dark !important;
+        }
+    
+        &:hover>.footer__navLink__text {
+            color: $dark !important;
+            @include hover-linear;
+        }
+    }
+    
+    .footer__navLink__text {
+        @include hover-linear;
+    }
+}

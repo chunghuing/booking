@@ -1,0 +1,10 @@
+
+.logo {
+    @include text-hidden (96px, 24px, "../images/logo-aloha.svg");
+}
+
+.dropdownList-xs {
+    @include media-breakpoint-down(xs) {
+        padding: ($spacer * 0.5) 0;
+    }
+}
